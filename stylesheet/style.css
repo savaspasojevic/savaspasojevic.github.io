@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	background-image: url('../img/blue.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.wrap
+{
+	margin: auto;
+	max-width:835px;
+	background: white;
+}
+
+/* Container */
+
+.container {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+ }
+
+ .containerBox {
+ 	width: 80%;
+	margin: 20px 95px;
+	overflow: hidden;
+ }
+
+/* Header */
+
+header { 
+	background-image: url('../img/blue.png');
+	color: #ffffff;
+	padding-top: 5px;
+	min-height: 70px;
+	border-bottom: #fff solid 3px;
+}
+
+header h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	color: #50a3ff;
+	text-decoration: underline;
+}
+
+header ul { 
+	text-align: center; 
+	margin: auto;
+	padding: 0px;
+	margin-bottom: 10px; }
+
+header li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* Showcase & Quotation */
+#showcase {
+	min-height:330px;
+	text-align: center;
+	color: white;
+	content : "";
+    display: block;
+    top: 0;
+    left: 0;
+    background-image: url('../img/s.jpg');
+    background-position: center top; 
+    width: 100%;
+    height: 100%;
+    opacity : 1;
+    /*z-index : -1;*/
+    font-family: arial, sans-serif;
+    /*border-bottom: 2px #3236ff solid;*/
+}
+
+#showcase h1 {
+	font-size: 44px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+#showcase p {
+	margin: auto;
+	font-size: 16px;
+	max-width: 545px;
+}
+
+#quotation {
+	/*border-bottom: #3236ff 2px solid;*/
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	background: url('../img/y.jpg');
+}
+
+#quotation h1 {
+	text-align: center;
+	color: #3656f2;
+	font-weight: normal;
+}
+
+/* Boxes */
+
+#boxes {
+	background: url('../img/sky.jpg');
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#description {
+	font-family: arial, sans-serif;
+}
+
+#boxes .box {
+	float: left;
+	width: 25%;
+	height: 345px;
+	margin-right: 10px;
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#boxes .box img {
+	width: 90px;
+	height: 90px;
+}
+
+/* Buttons */
+
+.bluebutton {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	font-family: arial;
+}
+
+.box a:hover {
+	background: #50a3ff;
+	color: white;
+	border: 1px solid #50a3ff;
+}
+
+/* Footer */
+
+footer {
+	max-width: 835px;
+	border-top: #000 solid 2px;
+	font-size: 20px;
+	text-align: center;
+	background: #151515;
+	color: white;
+	padding-bottom: 10px;
+	margin-top: 0;
+	margin: auto;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+}
+
+footer ul {
+	padding: 0px;
+}
+
+footer li {
+	display: inline;
+}
+
+img { width: 100px; }
+
+/* Mathematics Page */
+#title {
+	border-bottom: 1px #50a3ff solid;
+	margin: 10px 0px 10px 0px;
+	padding-bottom: 5px;
+}
+
+#math li {
+	list-style-type: none;
+}
+
+.textcontainer {
+	width: 80%;
+	margin:auto;
+	font-family: arial;
+}
+
+.textcontainer h1 {
+	border-bottom: 1px #50a3ff solid;
+}
+
+
+.sec {
+	margin-bottom: 50px;
+}
+
+/* About Me */
+
+.indent {
+	text-indent: 35px;
+}
+
+#aboutme {
+	border: 1px #50a3ff solid;
+	padding: 0px 30px 0px 30px;
+}
+
+#profpic { 
+	float: right;
+	width: 150px;
+	height: 200px;
+	margin-right: 20px;
+	box-shadow: 7px 7px 10px #888888;
+	/*border: 1px #50a3ff solid;*/ }
+
+/* computer science */
+#compsci li {
+	list-style-type: none;
+}
+
+/* chess */
+
+#chess li {
+	list-style-type: none;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 233px;
+  height:300px;
+  border-radius: 90%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+caption {
+  display: table-caption;
+  text-align: center;
+
+}
+tr:hover {background-color: #50a3ff;color: white;}
+
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width = device-width">
+		<title>Sava Spasojevic | Computer Science</title>
+		<link href = "./stylesheet/style.css" type = "text/css" rel = "stylesheet">
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	</head>
+	<body>
+	<div class = "wrap">
+		<div class = "container">
+			<header>
+				<div id = "branding">
+					<h1>Sava Spasojevic</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "about.html">About</a></li>
+						<li><a href = "contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		</section>
+		</div>
+		<section id = "compsci">
+		<div class = "textcontainer">
+			<div class = "sec">
+			<h1>Disclaimer</h1>
+			<p>(I). <i>This section contains computer projects, all of which are intended for purely theoretical insights. Programs that have real-world applicability are typically not available for unauthorized viewership because a high degree of technical competence is required. I have previously made the mistake of discussing quantitative finance with persons that have no idea what questions to ask and what types of projects are undertaken in such a field. As a result, they leave the discussion with continued ignorance and the wrongful notion that science is akin to mysticism. I hope that this disclaimer may clarify some things for those that are not so well versed in quantitative analysis, and may explain the underlying ideas that are scientifically factual and not subject to faith-based discussion.</i></p>
+			<p>(II). <i>Some of the projects here pertain to mathematical finance. A security, defined within a general framework, is not likely to be directly equivalent in its behavior to a security subject to real-world market conditions. The scientific words commonly used to describe this phenomenon are  "variablility", "variance", and "volatility". The more familiar terminology uses words such as "risk", "uncertainty", and "liability".</i></p>
+			<p>(III). <i>In mathematical finance, some fundamental characterizations of uncertainty are theoretical in nature. Projects here are designed to analyze this mathematical uncertainty and have no guarantee of providing a useful framework for characterizing real-world uncertainty. Once this acknowledgement is made, there will be no confusion regarding project classification according to the two categories, theoretical and applicable. All projects listed below are classified as theoretical.</i></p>
+			</div>
+			<div class = "sec">
+				<h1>Individual Projects</h1>
+				<ul>
+					<li><h3>1. <a href = "VanillaOptionsInABlackScholesWorld.pdf">Vanilla Options in a Black-Scholes World</a> (November 2019)</h3></li>
+					<ul>
+					<li><h4>Description and Accompanying Theoretical Materials</h4></li>
+					<p>This was my first ever project pertaining to options pricing and is just a basic implementation of formulas in C++.</p>
+					<p>This section consists of some of my solutions to the exercises in Shreve's <i>"Stochastic Clalculus for Finance II Continuous-Time Models."</i> </p>
+
+					<p>I also utilized Yves Hilpisch's <i>"Python for Finance"</i> to verify the price of a European call via Monte Carlo and Euler stepping.</p>
+					<li>1. <a href = "./SC/SC1.pdf"> General Probability Thoery</a></li>
+				  	<li>2. <a href = "./SC/SC2.pdf"> Information and Conditioning</a> </li>
+				  	<li>3. <a href = "./SC/SC3.pdf"> Brownian Motion</a></li>
+				  	<li>4. <a href = "./SC/SC4.pdf"> Stochastic Calculus</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<li><h3>2. <a href = "inveritblematrix.pdf">Invertible Matrix Program With Rational Entries</a> (December 2016)</h3></li>
+					<ul>
+					<li><h4>A Brief Explanation</h4></li>
+					<p>Invertible Matrix Program (the program will exit if the matrix given is not invertible) which takes integer entries and outputs integer and rational entries after computation.</p>
+					<p>\( \left[ {\begin{array}{cc}
+   a_{11} & a_{12} & a_{13} & 1 & 0 & 0 \\
+   a_{21} & a_{22} & a_{23} & 0 & 1 & 0 \\
+  a_{31} & a_{32} & a_{33} & 0 & 0 & 1 \\
+  \end{array} } \right] \Longrightarrow \left[ {\begin{array}{cc}
+    1 & 0 & 0 &  b_{11} & b_{12} & b_{13} \\
+    0 & 1 & 0 & b_{21} & b_{22} & b_{23} \\
+   0 & 0 & 1 & b_{31} & b_{32} & b_{33}\\
+  \end{array} } \right],\ A^{-1} = B\)</p>
+					<li>1. <a href = "Class Matric With Rationals.exe">InvertibleMatrixProgram.exe</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<li><h3>3. Arbitrage Opportunities</a> (April 2020)</h3></li>
+					<ul>
+					<li><h4>A Brief Explanation</h4></li>
+					<p>In this project, I took a deeper dive into theoretical arbitrage as descrbied by Mark Joshi in his book <i>"The Concepts and Practice of Mathematical Finance."</i> The simplest form of arbitrage arises when analyzing relative exchange rates between currencies. I programmed such an arbitrage opportunity to get a sense of the magnitude of profits and what trade sizes would make this worth anyone's while.</p>
+					</ul>
+				</ul>
+				<ul>
+					<li><h3>4. Option Greeks (May 2020)</h3></li>
+					<ul>
+					<li><h4>Plotting of Option Greeks and Verification of Formulas</h4></li>
+					<p>In this project I plotted option greeks and checked whether my results were consist with those from chapter 3 of the book <i>"Financial Engineering Advanced Background Series"</i> by Dan Stefanica. The option greeks are as follows; let \(V\) be the value of a porfolio of derivative securities on one underlying asset. Then</p>
+					<li>1. Delta \(\Delta(V) = \frac{\partial V}{\partial S}\)</li>
+				  	<li>2. Gamma \(\Gamma(V) = \frac{\partial^2 V}{\partial S^2}\)</li>
+				  	<li>3. Theta \(\Theta(V) = \frac{\partial V}{\partial t}\)</li>
+				  	<li>4. Rho \(\rho(V) = \frac{\partial V}{\partial r}\)</li>
+				  	<li>5. Vega \(v(V) = \frac{\partial V}{\partial \sigma}\)</li>
+					</ul>
+				</ul><ul>
+					<li><h3>5. Python Programming Directory </h3></li>
+					<ul>
+					<li><h4>Screenshot of my File Explorer</h4></li>
+					<p>Here is a snapshot of some of the programs I have written in Python. This constitutes further proof of my programming practice and self-initiative.</p>
+					</ul>
+				</ul><figure>
+					  		<img src="programs.png" alt="polyapprox" style="float:auto; width:580px; height:300px;border: 10px groove lightblue"></a><figcaption></figcaption>
+					 	</figure>
+			</div>
+			<div class = "sec">
+				<h1>School Projects</h1>
+				<ul>
+					<li>These pertain to Data Structures and Algorithms in C++. My book of reference is Clifford Shaffer's <i>"Data Structures and Algorithm Analysis in C++"</i> as well as Mark Joshi's <i>"C++ Design Patterns and Derivatives Pricing." </i> All of my school projects are in a folder on my computer. That constitutes two semesters worth of C++.</li>
+				</ul>
+			</div>
+		</div>
+		</section>
+		<div class = "container">
+			<footer>
+				<p>Sava Spasojevic, Copyright &copy; 2017</p>
+					<nav>
+						<ul>
+							<li><a href = "https://www.instagram.com/vinckboons/"><img src = "./img/instagram.png" alt = "Instagram"></a></li>
+							<li><a href = "https://www.youtube.com/channel/UCYcouAJGJ3bDRwh_gHGL6Zg?view_as=subscriber"><img src = "./img/youtube.png" alt = "YouTube"></a></li>
+							<li><a href = "https://www.facebook.com/sava.spasojevic"><img src = "./img/facebook.png" alt = "Facebook"></a></li>
+						</ul>
+					</nav>
+			</footer>
+		</div>
+	</div>
+	</body>
+</html>
